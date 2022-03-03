@@ -7,8 +7,6 @@ const loadData = () => {
     fetch(url)
     .then(res => res.json())
     .then(data => displayTemp(data))
-
-    searchField.value = '';
 };
 
 const setInnerText = (id, text) => {
